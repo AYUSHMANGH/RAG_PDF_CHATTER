@@ -21,6 +21,10 @@ A high-performance **Retrieval-Augmented Generation (RAG)** application built wi
 
 The system follows a standard two-phase RAG pipeline: **Ingestion & Indexing Phase** (offline/upload-time) and **Query & Retrieval-Augmented Generation Phase** (runtime).
 
+<p align="center">
+  <img src="assets/rag_architecture.png" alt="RAG PDF Chatter Architecture Workflow" width="100%" />
+</p>
+
 ```mermaid
 flowchart TD
     subgraph INGESTION["1. Document Ingestion & Indexing"]
